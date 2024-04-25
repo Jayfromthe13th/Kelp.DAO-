@@ -1,7 +1,7 @@
-## Kelp DAO Overview
+# Kelp DAO Overview
 Kelp DAO (Decentralized Autonomous Organization) is a cryptocurrency initiative designed to create a new global reserve currency that addresses the challenges commonly associated with digital currencies, such as volatility, trust, and regulatory obstacles. Kelp DAO utilizes a combination of advanced technologies, including on-chain data, artificial intelligence (AI), and monetary theory principles, to provide a stabilized currency solution.
 
-# Core Features of Kelp DAO:
+## Core Features of Kelp DAO:
 * Kelp Protocol:  Central to Kelp's approach is the Kelp Protocol, which employs an algorithmic method to stabilize the price of its currency. This method predicts and regulates the circulating supply of Kelp based on a modified version of the quantity theory of money. The goal is to reduce the inherent price volatility of cryptocurrencies, thereby making Kelp a more stable store of value and medium of exchange.
 
 * Governance Model: Kelp's governance structure draws inspiration from traditional fiat systems, incorporating a decentralized framework that supports its stabilization mechanism. This model facilitates transparency and security via blockchain technology, ensuring a democratized participation and governance.
