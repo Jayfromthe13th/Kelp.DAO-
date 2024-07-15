@@ -12,3 +12,20 @@ Kelp DAO (Decentralized Autonomous Organization) is a cryptocurrency initiative 
 
 * Regulatory Navigation: Committed to compliance, Kelp DAO actively works on adhering to global cryptocurrency regulations, including KYC (Know Your Customer) and AML (Anti-Money Laundering) standards, while maintaining user privacy and adjusting to ongoing regulatory changes.
 Token Release Strategy: To prevent inflationary pressures and support its goals of price stability and maintaining a minimum circulating supply, Kelp carefully manages the release of new tokens.
+
+
+### Vulnerabilities Overview
+
+| ID       | Title                              | Impact                                                                                                       | Severity | Status    |
+|----------|------------------------------------|--------------------------------------------------------------------------------------------------------------|----------|-----------|
+| VUL-001  | ChainlinkPriceOracle.sol Vulnerability | **High Impact**: Reliance on stale or outdated price data, risking incorrect operational decisions. Exposure to potential price feed manipulation by malicious actors. | High     | Resolved  |
+| VUL-002  | NodeDelegator.sol Vulnerability    | **Medium Impact**: Loss of funds due to inability to interact with the old strategy.                                            | Medium   | Resolved  |
+
+### Finding Count by Severity
+
+- **High Severity**: 1
+- **Medium Severity**: 1
+
+## Reference
+
+For more information, please refer to the [complete audit documentation](https://github.com/Jayfromthe13th/Kelp.DAO-/blob/Wallet/audit.md).
