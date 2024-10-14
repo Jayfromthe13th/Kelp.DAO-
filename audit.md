@@ -99,7 +99,7 @@ Explanation:
 There are two options:
 
 * Use custom-configured TWAP oracles instead.
-*Use chainlink ETH/USD pair which has the 1-hour heartbeat and 0.5% deviation along with stETH/USD price feed which also has 1 1-hour heat beat and 1% deviation to do two-step conversions and prevent stale prices. The only problem is I was not able to find cbETH/USD and rETH/USD pairs on the chainlink price feed.
+* Use chainlink ETH/USD pair which has the 1-hour heartbeat and 0.5% deviation along with stETH/USD price feed which also has 1 1-hour heat beat and 1% deviation to do two-step conversions and prevent stale prices. The only problem is I was not able to find cbETH/USD and rETH/USD pairs on the chainlink price feed.
 
 # Improper Strategy Transition Vulnerability
 
