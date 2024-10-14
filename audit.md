@@ -5,7 +5,7 @@ This document outlines the security audit conducted for the Kelp Project. The re
 ## Contents
 
 1. [Stale Price Arbitrage Exploit Vulnerability](#stale-price-arbitrage-exploit-vulnerability)
-2. [NodeDelegator.sol Vulnerability](#nodedelegatorsol-vulnerability)
+2. [Improper Strategy Transition Vulnerability](#improper-strategy-transition-vulnerability)
 
 ## Stale Price Arbitrage Exploit Vulnerability
 
@@ -108,7 +108,7 @@ function getAssetPrice(address asset) external view onlySupportedAsset(asset) re
 
 ```
 
-# NodeDelegator.sol Vulnerability
+# Improper Strategy Transition Vulnerability
 
 **Severity: Medium**
 
