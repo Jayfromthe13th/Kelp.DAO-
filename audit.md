@@ -96,17 +96,10 @@ Explanation:
 
 ### Recommended Mitigation
 
-Modify `getAssetPrice` to include a heartbeat check by integrating the `latestRoundData` function to confirm data freshness.
+There are two options:
 
-**Example Code:**
-```solidity
-function getAssetPrice(address asset) external view onlySupportedAsset(asset) returns (uint256) {
-    (,int price,,uint timeStamp,) = AggregatorInterface(assetPriceFeed[asset]).latestRoundData();
-    require(block.timestamp - timeStamp < acceptableDelay, "Price data is stale");
-    return uint(price);
-}
-
-```
+* Use custom-configured TWAP oracles instead.
+*Use chainlink ETH/USD pair which has the 1-hour heartbeat and 0.5% deviation along with stETH/USD price feed which also has 1 1-hour heat beat and 1% deviation to do two-step conversions and prevent stale prices. The only problem is I was not able to find cbETH/USD and rETH/USD pairs on the chainlink price feed.
 
 # Improper Strategy Transition Vulnerability
 
